@@ -54,7 +54,7 @@ class SpeedometerApp:
             # Add numbers
             x_text = 150 + 110 * cos(angle * pi / 180)
             y_text = 150 - 110 * sin(angle * pi / 180)  # Flipped y-coordinate
-            self.canvas.create_text(x_text, y_text, text=str(angle), fill="black")
+            self.canvas.create_text(x_text, y_text, text=str(180 - angle), fill="black")
 
     def update_dial(self, cpm):
         angle = cpm * 1.8  # 1.8 degrees per CPM
