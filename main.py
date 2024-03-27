@@ -92,3 +92,5 @@ app = SpeedometerApp(root)
 
 # Run the application
 root.mainloop()
+
+#Need to consider looking at clock apps
